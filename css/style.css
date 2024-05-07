@@ -130,7 +130,7 @@ a:focus {
 }
 
 .header_section .header_top .contact_nav a {
-  color: #ffffff;
+  color: #28166F;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -692,7 +692,7 @@ a:focus {
   margin-top: 30px;
   text-align: center;
   -webkit-box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.15);
-  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   padding: 25px 15px;
   -webkit-transition: all .3s;
   transition: all .3s;
@@ -723,7 +723,7 @@ a:focus {
 }
 
 .service_section .box .img-box img {
-  max-height: 100%;
+  max-height: fit-content;
   max-width: 100%;
   -webkit-transition: all .3s;
   transition: all .3s;
@@ -742,7 +742,7 @@ a:focus {
 }
 
 .service_section .box:hover {
-  background-color: #da7426;
+  background-color: #D9241C;
   color: #ffffff;
 }
 
@@ -764,18 +764,20 @@ a:focus {
 .service_section .btn-box a {
   display: inline-block;
   padding: 10px 45px;
-  background-color: #da7426;
+  background-color: #D9241C;
   color: #ffffff;
   border-radius: 0;
   -webkit-transition: all .3s;
   transition: all .3s;
-  border: 1px solid #da7426;
+  border: 1px solid #D9241C;
 }
 
 .service_section .btn-box a:hover {
   background-color: transparent;
-  color: #da7426;
+  color: #D9241C;
 }
+
+
 
 .contact_section {
   position: relative;
