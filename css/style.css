@@ -100,7 +100,7 @@ a:focus {
 }
 
 .header_section {
-  border-top: 15px solid #da7426;
+  border-top: 15px solid #D9241C;
 }
 
 .header_section .header_top {
@@ -147,7 +147,7 @@ a:focus {
 
 .header_section .header_top .contact_nav a i {
   margin-right: 5px;
-  background-color: #159ec0;
+  background-color: #28166F;
   width: 35px;
   height: 35px;
   display: -webkit-box;
@@ -164,7 +164,7 @@ a:focus {
 }
 
 .header_section .header_top .contact_nav a:hover i {
-  background-color: #da7426;
+  background-color: #D9241C;
 }
 
 .header_section .header_top .social_box {
@@ -216,7 +216,7 @@ a:focus {
 }
 
 .navbar-brand:hover {
-  color: inherit;
+  color: #28166F;
 }
 
 .navbar_brand_mobile {
@@ -247,7 +247,7 @@ a:focus {
 }
 
 .custom_nav-container .navbar-nav .nav-item:hover .nav-link {
-  color: #da7426;
+  color: #D9241C;
 }
 
 .custom_nav-container .nav_search-btn {
@@ -259,7 +259,7 @@ a:focus {
 }
 
 .custom_nav-container .nav_search-btn:hover {
-  color: #da7426;
+  color: #D9241C;
 }
 
 .custom_nav-container .navbar-toggler {
@@ -388,7 +388,7 @@ a:focus {
 }
 
 .slider_section .detail-box {
-  color: #da7426;
+  color: #D9241C;
 }
 
 .slider_section .detail-box h1 {
@@ -437,12 +437,12 @@ a:focus {
 .slider_section .detail-box .btn-box .btn2 {
   display: inline-block;
   padding: 10px 15px;
-  background-color: #da7426;
+  background-color: #D9241C;
   color: #ffffff;
   border-radius: 0;
   -webkit-transition: all .3s;
   transition: all .3s;
-  border: 1px solid #da7426;
+  border: 1px solid #D9241C;
 }
 
 .slider_section .detail-box .btn-box .btn2:hover {
@@ -486,7 +486,7 @@ a:focus {
 }
 
 .slider_section .carousel_btn-box a:hover {
-  background-color: #da7426;
+  background-color: #D9241C;
   color: #ffffff;
 }
 
@@ -523,22 +523,22 @@ a:focus {
 .about_section .detail-box a {
   display: inline-block;
   padding: 10px 35px;
-  background-color: #da7426;
+  background-color: #D9241C;
   color: #ffffff;
   border-radius: 0px;
   -webkit-transition: all .3s;
   transition: all .3s;
-  border: 1px solid #da7426;
+  border: 1px solid #D9241C;
   margin-top: 15px;
 }
 
 .about_section .detail-box a:hover {
   background-color: transparent;
-  color: #da7426;
+  color: #D9241C;
 }
 
 .portfolio_section {
-  background-color: #003471;
+  background-color: #28166F;
   color: #ffffff;
   padding-top: 45px;
 }
@@ -621,12 +621,12 @@ a:focus {
 
 .portfolio_section .box .img-box .btn_overlay a {
   padding: 10px 45px;
-  border: 1px solid #da7426;
-  color: #da7426;
+  border: 1px solid #D9241C;
+  color: #D9241C;
 }
 
 .portfolio_section .box .img-box .btn_overlay a:hover {
-  background-color: #da7426;
+  background-color: #D9241C;
   color: #ffffff;
 }
 
@@ -1132,3 +1132,17 @@ a:focus {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+
+
+
+
+/* Client*/
+.card-deck {
+  margin-left: 12px;
+}
+
+.portfolio_section {
+  margin-left: 12px;
+  margin-right: 2px;
+}
