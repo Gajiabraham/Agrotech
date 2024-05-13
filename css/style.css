@@ -1290,10 +1290,11 @@ a:focus {
 /*----Infor contact--------*/
 .contact-info {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
-  align-items: center;
-  width: 491px;
+  width: 800px;
   margin: 0 auto;
+  margin-bottom: 24px;
 }
 
 .contact-item {
@@ -1304,5 +1305,15 @@ a:focus {
 }
 
 .contact-item i {
-  margin-bottom: 5px;
+  background-color: #003471;
+  color: white;
+  padding: 20px;
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  margin-bottom: 10px;
+}
+
+.contact-item p {
+  margin-top: 0;
 }
