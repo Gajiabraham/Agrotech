@@ -209,6 +209,7 @@ a:focus {
   color: #ffffff;
   font-weight: bold;
   font-size: 24px;
+
 }
 
 .navbar-brand span {
@@ -720,25 +721,30 @@ a:focus {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+
 }
 
 .service_section .box .img-box img {
-  max-height: fit-content;
+  max-height: mi;
   max-width: 100%;
   -webkit-transition: all .3s;
   transition: all .3s;
+
 }
 
 .service_section .box .detail-box {
   margin-top: 15px;
+
 }
 
 .service_section .box .detail-box h5 {
   font-weight: bold;
+
 }
 
 .service_section .box .detail-box p {
   margin: 0;
+
 }
 
 .service_section .box:hover {
@@ -1082,7 +1088,7 @@ a:focus {
   width: 45px;
   height: 45px;
   line-height: 45px;
-  border: 1px solid #da7426;
+  border: 1px solid #D9241C;
   text-align: center;
   border-radius: 5px;
   font-size: 18px;
@@ -1124,13 +1130,15 @@ a:focus {
 }
 
 .footer_section p {
-  color: #252525;
+  color: #00000080;
   padding: 25px 0;
   margin: 0;
+  font-weight: 600;
 }
 
 .footer_section p a {
-  color: inherit;
+  color: #00000080;
+  font-weight: 600;
 }
 
 /*# sourceMappingURL=style.css.map */
@@ -1147,4 +1155,134 @@ a:focus {
 .portfolio_section {
   margin-left: 12px;
   margin-right: 2px;
+}
+
+.hero_area {
+  background-image: url(/Img/jonathan-borba-5Taa8b9E55k-unsplash.jpg);
+}
+
+/*---------about section*/
+
+.hero-section {
+  height: 350px;
+  background-image: url('/Img/jonathan-borba-5Taa8b9E55k-unsplash.jpg');
+  background-size: cover;
+  background-position: center;
+  margin-top: -326.5px;
+}
+
+.hero-content {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero-content p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+/*------vision section*/
+.vision-section {
+  background-color: #f0f0f0;
+  padding: 50px 0;
+}
+
+.vision-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.vision-rectangle {
+  background-color: #f0f0f0;
+  display: flex;
+  height: 250px;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.blue-section {
+  width: 200px;
+  background-color: #28166F;
+}
+
+.vision-text {
+  flex: 1;
+  background-color: #f0f0f0;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.vision-text h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.vision-description {
+  margin-top: 30px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/*---core values*/
+.vision-section {
+  background-color: #f0f0f0;
+  padding: 50px 0;
+}
+
+.vision-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.vision-rectangle {
+  background-color: #f0f0f0;
+  display: flex;
+  height: 91px;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  box-shadow: 4px 4px 6px 0.25px rgba(0, 0, 0, 0.1);
+}
+
+.blue-section {
+  width: 200px;
+  background-color: #28166F;
+}
+
+.vision-text {
+  flex: 1;
+  background-color: #f0f0f0;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.vision-text h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.vision-description {
+  margin-top: 30px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.vision-list {
+  text-align: left;
+  list-style-type: decimal;
+  padding-left: 20px;
 }
