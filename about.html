@@ -33,9 +33,9 @@
 </head>
 
 <body>
-  <div style="background-image: none;" class="hero_area">
+ 
     <!-- header section strats -->
-    <header class="header_section">
+    <header class="header_section" style="margin-bottom: -200px">
       <div class="header_top">
         <div class="container-fluid header_top_container">
           <a class="navbar-brand " href="index.html"><img width="80" height="80" src="/images/Agritek.png" alt="" style="margin-left: 100px;"> </a>
@@ -52,10 +52,10 @@
           
         </div>
       </div>
-      <div class="header_bottom">
+      <div style="margin-bottom: 200px;" class="header_bottom">
         <div class="container-fluid">
           <nav class="navbar navbar-expand-lg custom_nav-container ">
-            <a class="navbar-brand navbar_brand_mobile" href="index.html"> Agrotek<span>Fairdeals</span> </a>
+            <a class="navbar-brand navbar_brand_mobile" href="index.html"> <img width="80" height="80" style="margin-left: 100px; " src="/images/Agritek.png" alt=""></a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class=""> </span>
@@ -86,25 +86,25 @@
         </div>
       </div>
     </header>
-    <!-- end header section -->
-    <!-- slider section -->
-  </div>
     
-  <!----Hero section for About Us start-->
-  <section class="hero-section">
-    <div class="container-fluid p-0">
-      <div class="row justify-content-center align-items-center" style="height: 291px;">
-        <div style="margin-left: 250px;" class="col-12 hero-content text-left text-white">
-          <h1>Our Mission</h1>
-          <p>To be the leading provider of high-quality industrial and agricultural <br> 
-            solutions, empowering our clients to achieve their goals through reliable <br>
-            and innovative products and services.</p>
-         
-        </div>
-      </div>
+
+  <section class="hero" >
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1 class="hero-title">Our Mission</h1>
+      <p class="hero-description" style="white-space:nowra;">To be the leading provider of high-quality industrial and agricultural <br>solutions, empowering our clients to achieve their goals through reliable <br>
+        and innovative products and services.</p>
+      
     </div>
   </section>
-<!-----Hero section for About Us end-->
+  
+  
+  
+    <!-- end header section -->
+    <!-- slider section -->
+   
+  <!----Hero section for About Us start-->
+  <!-----Hero section for About Us end-->
   <!--About Us section start-->
   <section style="height: fit-content; box-shadow:  0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px #f5f5f5; margin-left: 44px; margin-right:44px ;margin-top: 33px; margin-bottom: 148px;">
   <section style="height: fit-content; box-shadow:  0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px #f5f5f5;background-color: #D9241C;">
@@ -127,34 +127,50 @@
     </section>
   </section>
   
-    <section class="vision-section">
-      <div class="vision-container">
-        <div class="vision-rectangle">
-          <div class="blue-section"></div>
-          <div class="vision-text">
-            <h2>Core Values</h2>
-          </div>
+
+  <section class="vision-section">
+    <div class="vision-container">
+      <div class="vision-rectangle">
+        <div class="blue-section"></div>
+        <div class="vision-text">
+          <h2>Core Values</h2>
         </div>
-        <div class="vision-description">
-          <div class="row">
-            <div class="col-md-6">
-              <ol style="padding-left: 210px; list-style-type: none;" class="vision-list">
-                <li>1. Innovation</li>
-                <li>2. Excellence</li>
-                <li>3. Customer Focus</li>
-              </ol>
-            </div>
-            <div class="col-md-6">
-              <ol style="list-style-type: none;" class="vision-list">
-                <li>4. Integrity</li>
-                <li>5. Sustainability</li>
-                <li>6. Collaboration</li>
-              </ol>
-            </div>
+      </div>
+      <div class="vision-description">
+        <div class="row">
+          <div class="col-md-6">
+            <ol style="padding-left: 210px; list-style-type: none;" class="vision-list">
+              <li>1. Innovation</li>
+              <li>2. Excellence</li>
+              <li>3. Customer Focus</li>
+            </ol>
+          </div>
+          <div class="col-md-6">
+            <ol style="list-style-type: none;" class="vision-list">
+              <li>4. Integrity</li>
+              <li>5. Sustainability</li>
+              <li>6. Collaboration</li>
+            </ol>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
+  
+  <style>
+    @media (max-width: 767px) {
+      .vision-description {
+        text-align: center;
+        padding-left: 0 !important;
+      }
+      
+      .vision-list {
+        padding-left: 0 !important;
+        text-align: center;
+      }
+    }
+  </style>
+  
 
     <section class="vision-section">
       <div class="vision-container">
