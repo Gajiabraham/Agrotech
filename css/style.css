@@ -1417,13 +1417,50 @@ a:focus {
   background-color: #0056b3;
 }
 
-/* Responsive styles */
-@media (max-width: 768px) {
-  .hero-content {
-    text-align: center;
-  }
 
-  .hero-title {
-    font-size: 36px;
+/* Card section styles */
+.contact_section layout_padding {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.contact_section layout_padding {
+  width: 30%;
+  margin-bottom: 30px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+/* Media queries for card section */
+
+/* Small screens (up to 767px) */
+@media (max-width: 767px) {
+  .card {
+    width: 100%;
+  }
+}
+
+/* Medium screens (768px to 1199px) */
+@media (min-width: 768px) and (max-width: 1199px) {
+  .contact_section layout_padding {
+    width: 48%;
+  }
+}
+
+/* Large screens (1200px and above) */
+@media (min-width: 1200px) {
+  .contact_section layout_padding {
+    width: 30%;
   }
 }
